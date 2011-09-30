@@ -1,0 +1,12 @@
+{% extends
+{% block subject '[TOTO] ' ~ titre  %}
+
+{% block body %}
+    <img />
+
+    TEST DES TEMPLATES AVEC {{ contenu }}
+
+    {% block content %}
+    <hr />
+    ...
+{% endblock %}
